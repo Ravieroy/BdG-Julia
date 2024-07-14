@@ -1,0 +1,8 @@
+14-Jul-24 16:21:44  - INFO - Starting the program to make the plots.
+14-Jul-24 16:21:44  - INFO - Collating data from directory: ../post-processing/
+14-Jul-24 16:21:44  - INFO - Data collated successfully
+14-Jul-24 16:21:44  - INFO - update_collated_files = False
+14-Jul-24 16:21:44  - INFO - Making probability distribution plots for order parameter
+14-Jul-24 16:21:45  - INFO - P(Δ) Vs Δ plotted successfully in directory: ../images/
+14-Jul-24 16:21:45  - INFO - Making probability distribution plots for average density
+14-Jul-24 16:21:45  - INFO - P(n) Vs n plotted successfully in directory: ../images/
