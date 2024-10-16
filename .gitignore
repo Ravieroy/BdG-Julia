@@ -1,0 +1,4 @@
+scripts/__pycache__/
+scripts/.ipynb_checkpoints/
+src/.ipynb_checkpoints/
+.virtual_documents/
