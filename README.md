@@ -18,21 +18,13 @@ The basic structure of the directory for running any BdG calculation is :
 ```
 scripts
 ├── `bdg_plotting_utils.py` : Plotting utilities(python) after completion BdG calculation.
-
 ├── `check_julia_dependency.jl` : Check and install Julia dependencies needed to run the calculation(`julia check_julia_dependency.jl`).
-
 ├── `check_python_dependency.py` : Check and python dependencies needed to run the calculation(`python check_python_dependency.jl`).
-
 ├── `create_input_files.jl` : This will create all the required input files needed to run the calculation.(`julia create_input_files.jl`).
-
 ├── `main_corr.jl` : This the main script to run BdG calculation for random correlated disorder.
-
 ├── `main_make_plots_T.py`: python script to plot important quantities after BdG calculation.
-
 ├── `main_uncorr.jl` : This the main script to run BdG calculation for random uncorrelated disorder.
-
 ├── `Makefile`: Makefile for running quick bash commands(`make reset` will clear everything except contents in the data directory. This is used to clear everything from previous calculation and run the fresh calculation with same input files. `make fresh` will delete all unnecessary files and run a fresh calculation. )
-
 ├── `params.jl`: Parameter file
 ├── `plot_params.py` : Parameter file for plotting results.
 ├── `scrift_info.md` : Markdown file containing summary of what each script does.
