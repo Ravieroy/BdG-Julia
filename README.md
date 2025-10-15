@@ -1,3 +1,6 @@
+This repository holds the code for the work **"Effect of correlated disorder on superconductivity in a kagome lattice: A Bogoliubov–de Gennes analysis"** published in [Phys. Rev. B 110, 184506](https://doi.org/10.1103/PhysRevB.110.184506) and the full text can also be found on [ResearchGate](https://www.researchgate.net/publication/385637326_Effect_of_correlated_disorder_on_superconductivity_in_a_kagome_lattice_A_Bogoliubov-de_Gennes_analysis)
+This is real space implementation and hence some of the serious calculations will be resource intensive. 
+
 The basic structure of the directory for running any BdG calculation is : 
 ```
 ├── `data`
